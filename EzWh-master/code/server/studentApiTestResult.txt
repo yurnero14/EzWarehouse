@@ -1,0 +1,339 @@
+
+
+  Test Internal Orders api
+Server listening at http://localhost:3001
+{
+  issueDate: '2021/11/29 09:33',
+  products: [
+    {
+      SKUId: 1,
+      description: 'a product',
+      price: 10.99,
+      RFID: '12345678901234567890123456789016'
+    },
+    {
+      SKUId: 2,
+      description: 'another product',
+      price: 11.99,
+      RFID: '12345678901234567890123456789038'
+    }
+  ],
+  customerId: 1
+}
+    ✔ Getting all internal orders (58ms)
+Server listening at http://localhost:3001
+{
+  issueDate: '2021/11/29 09:33',
+  products: [
+    {
+      SKUId: 1,
+      description: 'a product',
+      price: 10.99,
+      RFID: '12345678901234567890123456789016'
+    },
+    {
+      SKUId: 2,
+      description: 'another product',
+      price: 11.99,
+      RFID: '12345678901234567890123456789038'
+    }
+  ],
+  customerId: 1
+}
+    ✔ Getting all issued internal orders (59ms)
+Server listening at http://localhost:3001
+{
+  issueDate: '2021/11/29 09:33',
+  products: [
+    {
+      SKUId: 1,
+      description: 'a product',
+      price: 10.99,
+      RFID: '12345678901234567890123456789016'
+    },
+    {
+      SKUId: 2,
+      description: 'another product',
+      price: 11.99,
+      RFID: '12345678901234567890123456789038'
+    }
+  ],
+  customerId: 1
+}
+    ✔ Getting all accpeted internal orders (67ms)
+Server listening at http://localhost:3001
+{
+  issueDate: '2021/11/29 09:33',
+  products: [
+    {
+      SKUId: 1,
+      description: 'a product',
+      price: 10.99,
+      RFID: '12345678901234567890123456789016'
+    },
+    {
+      SKUId: 2,
+      description: 'another product',
+      price: 11.99,
+      RFID: '12345678901234567890123456789038'
+    }
+  ],
+  customerId: 1
+}
+1
+    ✔ Getting Internal Order by id
+Server listening at http://localhost:3001
+{
+  issueDate: '2021/11/29 09:33',
+  products: [
+    {
+      SKUId: 1,
+      description: 'a product',
+      price: 10.99,
+      RFID: '12345678901234567890123456789016'
+    },
+    {
+      SKUId: 2,
+      description: 'another product',
+      price: 11.99,
+      RFID: '12345678901234567890123456789038'
+    }
+  ],
+  customerId: 1
+}
+    ✔ Creating a Inernal Order
+Server listening at http://localhost:3001
+{
+  issueDate: '2021/11/29 09:33',
+  products: [
+    {
+      SKUId: 1,
+      description: 'a product',
+      price: 10.99,
+      RFID: '12345678901234567890123456789016'
+    },
+    {
+      SKUId: 2,
+      description: 'another product',
+      price: 11.99,
+      RFID: '12345678901234567890123456789038'
+    }
+  ],
+  customerId: 1
+}
+-------------------------------
+string
+    ✔ Deleting a Internal Order
+Server listening at http://localhost:3001
+{
+  issueDate: '2021/11/29 09:33',
+  products: [
+    {
+      SKUId: 1,
+      description: 'a product',
+      price: 10.99,
+      RFID: '12345678901234567890123456789016'
+    },
+    {
+      SKUId: 2,
+      description: 'another product',
+      price: 11.99,
+      RFID: '12345678901234567890123456789038'
+    }
+  ],
+  customerId: 1
+}
+    ✔ updating internal order (92ms)
+
+  Test Item api
+Server listening at http://localhost:3001
+    ✔ Getting all Items (76ms)
+Server listening at http://localhost:3001
+    1) Getting all Items
+Server listening at http://localhost:3001
+    ✔ Creating new item (66ms)
+Server listening at http://localhost:3001
+    2) Updating item
+Server listening at http://localhost:3001
+    3) Deleting item
+
+  Test Positions api
+Server listening at http://localhost:3001
+    ✔ Getting all Positions (57ms)
+Server listening at http://localhost:3001
+    ✔ Creating a new Position (40ms)
+Server listening at http://localhost:3001
+    ✔ Updating a Position (76ms)
+Server listening at http://localhost:3001
+    ✔ Updating a positionID (93ms)
+Server listening at http://localhost:3001
+    ✔ Deleting a Position (63ms)
+
+  Test Restock Orders api
+Server listening at http://localhost:3001
+    ✔ Getting all restock orders (115ms)
+Server listening at http://localhost:3001
+    ✔ Getting all restock orders issued (117ms)
+Server listening at http://localhost:3001
+    ✔ Getting a restock order by id (150ms)
+Server listening at http://localhost:3001
+    ✔ Creating a Restock Order (113ms)
+Server listening at http://localhost:3001
+    ✔ Modifying a restock order (150ms)
+Server listening at http://localhost:3001
+    ✔ Deleting a Restock Order (138ms)
+
+  Test Return Orders api
+Server listening at http://localhost:3001
+    ✔ Getting all Return Orders (44ms)
+Server listening at http://localhost:3001
+    4) Getting Return Order by id
+Server listening at http://localhost:3001
+    ✔ Creating a Return Order
+Server listening at http://localhost:3001
+    ✔ Deleting a Return Order (44ms)
+
+  Test SKU APIs
+Server listening at http://localhost:3001
+    ✔ Getting all SKUs
+Server listening at http://localhost:3001
+    ✔ Getting a single SKU
+Server listening at http://localhost:3001
+    ✔ Getting a single SKU
+Server listening at http://localhost:3001
+    ✔ Getting a single SKU
+Server listening at http://localhost:3001
+    ✔ Creating a new SKU
+Server listening at http://localhost:3001
+    ✔ Creating a new SKU
+Server listening at http://localhost:3001
+    ✔ Updating a SKU
+Server listening at http://localhost:3001
+    ✔ Updating a SKU
+Server listening at http://localhost:3001
+    ✔ Updating a SKU
+Server listening at http://localhost:3001
+    ✔ Setting SKU Position
+Server listening at http://localhost:3001
+    ✔ Setting SKU Position
+Server listening at http://localhost:3001
+    ✔ Setting SKU Position
+Server listening at http://localhost:3001
+    ✔ Deleting SKU
+Server listening at http://localhost:3001
+    ✔ Deleting SKU
+Server listening at http://localhost:3001
+    ✔ Deleting SKU
+
+  Test SKUitems api
+Server listening at http://localhost:3001
+    ✔ Getting all SKUitems
+Server listening at http://localhost:3001
+    ✔ Getting SKUitem by id (54ms)
+Server listening at http://localhost:3001
+    ✔ Getting SKUitem by rfid
+Server listening at http://localhost:3001
+    ✔ Creating a new SKUitem
+Server listening at http://localhost:3001
+    ✔ Updating a SKUitem (52ms)
+Server listening at http://localhost:3001
+    ✔ Deleting a SKUitem
+Server listening at http://localhost:3001
+    ✔ Creating a new SKUitem
+
+  Test Descriptor api
+Server listening at http://localhost:3001
+    ✔ Getting all Test Descriptors
+Server listening at http://localhost:3001
+    ✔ Getting Test Descriptor by id
+Server listening at http://localhost:3001
+    ✔ Creating a Test Descriptor
+Server listening at http://localhost:3001
+    ✔ Updating a Test Descriptor (52ms)
+Server listening at http://localhost:3001
+    ✔ Deleting a Test Descriptor
+
+  Test TestResult api
+Server listening at http://localhost:3001
+    ✔ Getting all Test Results (154ms)
+Server listening at http://localhost:3001
+    ✔ Getting a Test Results (138ms)
+Server listening at http://localhost:3001
+    ✔ Creating a new TestResult (110ms)
+Server listening at http://localhost:3001
+    ✔ Updating a TestResult (199ms)
+Server listening at http://localhost:3001
+    ✔ Deleting a TestResult (140ms)
+
+  Test User api
+Server listening at http://localhost:3001
+    ✔ Getting all suppliers (60ms)
+Server listening at http://localhost:3001
+    ✔ Getting all users except managers (60ms)
+Server listening at http://localhost:3001
+    ✔ Creating a new user (41ms)
+Server listening at http://localhost:3001
+    ✔ login manager (77ms)
+Server listening at http://localhost:3001
+    ✔ login customer (45ms)
+Server listening at http://localhost:3001
+    ✔ login supplier (62ms)
+Server listening at http://localhost:3001
+    ✔ login clerk (61ms)
+Server listening at http://localhost:3001
+    ✔ login Quality Employee (60ms)
+Server listening at http://localhost:3001
+    ✔ login delivery employee (60ms)
+Server listening at http://localhost:3001
+    ✔ Updating a User (92ms)
+Server listening at http://localhost:3001
+    ✔ Deleting a user (63ms)
+
+
+  66 passing (18s)
+  4 failing
+
+  1) Test Item api
+       Getting all Items:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404
+      + expected - actual
+
+      -404
+      +200
+      
+      at /home/riccardo/EzWh/code/server/test/testItemRouter.js:102:43
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  2) Test Item api
+       Updating item:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404
+      + expected - actual
+
+      -404
+      +200
+      
+      at /home/riccardo/EzWh/code/server/test/testItemRouter.js:188:41
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  3) Test Item api
+       Deleting item:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 204 but got 404
+      + expected - actual
+
+      -404
+      +204
+      
+      at /home/riccardo/EzWh/code/server/test/testItemRouter.js:247:39
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  4) Test Return Orders api
+       Getting Return Order by id:
+     Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/home/riccardo/EzWh/code/server/test/testReturnOrderRouter.js)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+
+
