@@ -1,4 +1,4 @@
-### A short preview + My Contribution
+## A short preview + My Contribution
 
 Technologies: Node.js, Express, SQLite3, Mocha, UML, MVC Architecture 
 
